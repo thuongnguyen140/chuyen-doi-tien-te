@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="Amount00">Amount</label><br>
+        <input id="nhapsotien" type="number" name="nhapsotien"><br><br>
+        <label for="fdvt">From Currency</label>
+        <select name="sotien" id="sotien">
+            <option value="VND" selected>VND</option>
+            <option value="USD">USD</option>
+        </select>
+        <br><br>
+        <label for="tdvt">To Currency</label>
+        <select name="sotien" id="sotien">
+            <option value="VND">VND</option>
+            <option value="USD" selected>USD</option>
+        </select>
+    </form>
+    <button id="convert" onclick="chuyendoi()">Convert</button>
+</body>
+<script src="cdtt.js"></script>
+</html>
